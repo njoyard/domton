@@ -1,6 +1,6 @@
 /** @license
  * DOMTON : DOM Templating using jsON
- * version 0.1 - inline version
+ * version 0.1 - AMD version
  *
  * Copyright (c) 2012 Nicolas Joyard
  * Released under the MIT license.
@@ -9,8 +9,9 @@
  */
 
 /*jslint white: true, browser: true, plusplus: true */
+/*global define, require */
 
-var DOMTON = (function() {
+define(function() {
 	"use strict";
 	
 	var reserved, getprop, interp, render,
@@ -167,4 +168,4 @@ var DOMTON = (function() {
 			return render(context, template);
 		};
 	};
-}());
+});
