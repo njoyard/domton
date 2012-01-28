@@ -1,2 +1,6 @@
+0.2
+- Fixed a syntax error in the interpolation regexp
+- Added a requireJS plugin (browser-only)
+
 0.1
 - Initial release

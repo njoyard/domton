@@ -1,6 +1,6 @@
 /** @license
  * DOMTON : DOM Templating using jsON
- * version 0.1 - AMD version
+ * version 0.2 - AMD version
  *
  * Copyright (c) 2012 Nicolas Joyard
  * Released under the MIT license.
